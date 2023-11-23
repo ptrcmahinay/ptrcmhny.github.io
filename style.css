@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body{
+    background-color: #F0F0F3;
+    text-align: center;
+    font-family: poppins;
+}
+
+hr{
+    border: dotted gray 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 40px auto;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h2{
+    color: #0276F5;
+    margin-top: 0;
+}
+.pronoun{
+    font-size: 20px;
+}
+.role{
+    font-style: italic;
+}
+
+.bio{
+    margin: 0 20%;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+td{
+    vertical-align: top;
+}
+
+td:first-child {
+    text-align: right;
+    font-weight: bold;
+    width: 40%;
+}
+
+td:last-child{
+    text-align: left;
+    padding-left: 50px;
+    font-weight: 500; 
+    
+}
+
+td a.github{
+    color: black;
+    display: block;
+    padding-top: 12px;
+
+}
+
+td a.github:hover{
+    color: #0276F5;
+}
+
+
+
+.school{
+    color: #787878;
+}
+
+
+/* div */
+.blue_cover {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;       /* Full width */
+    height: 20%;      /* Full height */
+    background-color: #94BFE4;  /* Set the background color */
+}
+
+.profile {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    position: relative; 
+}
+
+
+footer{
+    background-color: #94BFE4;
+
+    padding: 10px;
+}
+
+.copyright{
+    color: white;
+}
+
+/* Skills */
+
+.skills{
+    margin: 0% 10%;
+}
+
+.skills > .text{
+    width: 70%;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.skills .row{
+    margin: 1rem 0;
+}
+
+.skills .item{
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+
+.skills .item .logo{
+    float: left;
+    margin-right: 10px;
+}
+
+.skills .item-text{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 1rem;
+    position: relative;
+}
+
+.skills .item-text span:last-child{
+    position: absolute;
+}
+
+.skills .item-text .w-90{
+    margin-left: 90%;
+}
+
+.skills .item-text .w-70{
+    margin-left: 90%;
+}
+.skills .item-text .w-50{
+    margin-left: 90%;
+}
+.skills .item-text .w-60{
+    margin-left: 90%;
+}
+.skills .item-text .w-85{
+    margin-left: 90%;
+}
+
+.progress{
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 8px;
+    width: 85%;
+    background-color: #40514E;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #2965F1;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    
+}
+
+.progress-bar.w-90{
+    width: 90%;
+}
+.progress-bar.w-70{
+    width: 70%;
+}
+.progress-bar.w-50{
+    width: 50%;
+}
+.progress-bar.w-60{
+    width: 60%;
+}
+.progress-bar.w-85{
+    width: 85%;
+}
+
+.skills .row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+
+@media screen and (max-width: 1100px) {
+    h1{
+        margin-bottom: 0;
+        font-size: 1.8rem;
+    }
+    
+    h2{
+        color: #0276F5;
+        margin-top: 0;
+        font-size: 1.3rem;
+    }
+    .pronoun{
+        font-size: 15px;
+    }
+
+    .role{
+        font-style: italic;
+    }
+
+    .bio{
+        font-size: 15px;
+        margin: 0 20%;
+    }
+
+    .personal_info, .education{
+        margin: 0 5%;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    td{
+        font-size: 15px;
+    }
+
+    td:first-child {
+        width: 35%;
+    }
+
+    /* skills */
+    .skills{
+        margin: 0% 10%;
+    }
+    
+    .skills .item{
+        padding: 0;
+        margin: 0.1rem 0;
+    }
+
+    .skills .row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .skills .item-text{
+        font-size: 15px;
+
+    }
+
+    .skills .item-text .w-90{
+        margin-left: 85%;
+    }
+    .skills .item-text .w-70{
+        margin-left: 85%;
+    }
+    .skills .item-text .w-50{
+        margin-left: 85%;
+    }
+    .skills .item-text .w-60{
+        margin-left: 85%;
+    }
+    .skills .item-text .w-85{
+        margin-left: 85%;
+    }
+
+    .progress{
+        margin: 0.8rem 0;
+        border-radius: 10px;
+        height: 6px;
+        width: 80%;
+    }
+    
+}
+
+
